@@ -1,2 +1,16 @@
 
 /* Your CSS Code here. */
+
+.holder{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.holder
+>div{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+}
